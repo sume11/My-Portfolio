@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumeya's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="upper">
+    <h1>MY PORTFOLIO</h1>
+    <img src="https://via.placeholder.com/120" alt="Sumeya's profile picture" class="prof">
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="dark-mode-container">
+    <button id="darkModeBtn">🌙 Dark Mode</button>
+  </div>
+  <h2>Hello, I'm Sumeya</h2>
+  <section class="quick-links">
+    <div class="box" id="about">
+      <h3>About</h3>
+      <p>I am a passionate software engineering student who enjoys building web applications and learning new technologies. I love creating clean, functional websites and I'm always excited to learn something new.</p>
+    </div>
+    <div class="box" id="skill">
+      <h3>Skills</h3>
+      <p>HTML/CSS</p>
+      <p>JavaScript</p>
+      <p>Python</p>
+      <p>Java</p>
+      <p>C++</p>
+    </div>
+    <div class="box" id="project">
+      <h3>Projects</h3>
+      <p><a href="https://github.com/sume11/registration-and-login-system">📁 Registration & Login System</a></p>
+      <p><a href="https://github.com/sume11">🔗 View other projects</a></p>
+    </div>
+    <div class="box" id="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:sumeyayuya@gmail.com">sumeyayuya@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/sume11">github.com/sume11</a></p>
+    </div>
+  </section>
+  <section class="form-section">
+    <div class="form-box">
+      <h3>Send Me a Message</h3>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" id="submitBtn">Send Message ✉️</button>
+      </form>
+      <p id="formStatus"></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2026 Sumeya Abdi</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
